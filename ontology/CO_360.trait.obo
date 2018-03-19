@@ -940,7 +940,7 @@ id: CO_360:0000126
 name: mg
 namespace: Sugar Kelp traitScale
 relationship: scale_of CO_360:0000125 ! Mo content  - Measurement
-namespace: sugar_kelp_trait
+
 
 [Term]
 id: CO_360:0000127
