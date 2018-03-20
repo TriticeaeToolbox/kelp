@@ -2,8 +2,8 @@ format-version: 1.2
 date: 19:03:2018 14:12
 saved-by: naama
 auto-generated-by: OBO-Edit 2.3.1
-ontology: Sugar Kelp trait_ontology
-default-namespace: sugar_kelp_trait
+ontology: CO_360
+default-namespace: kelp_ontology
 
 [Term]
 id: CO_360:0000000

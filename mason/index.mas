@@ -7,6 +7,9 @@ $show_accept_dialog => undef
 <center>
 <br/>
 <!-- & homepage/carousel.mas & -->
+
+<& /image/embed_image.mas, image_id=>2425, dbh=>$schema->storage()->dbh() &>
+
 <br/>
 </center>
 
