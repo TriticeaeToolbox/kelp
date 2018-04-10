@@ -1,1378 +1,594 @@
 format-version: 1.2
-date: 19:03:2018 14:12
-saved-by: naama
+date: 10:04:2018 14:16
+saved-by: XM
 auto-generated-by: OBO-Edit 2.3.1
-ontology: CO_360
 default-namespace: kelp_ontology
 
 [Term]
 id: CO_360:0000000
-name: Fresh weight
-def: "Fresh Weight" []
-synonym: "FW" EXACT []
-is_a: CO_360:0000200 ! Agronomical trait
+name: MARINE5 sugar kelp trait ontology
 namespace: sugar_kelp_trait
+def: "Controlled vocabulary to describe each trait as a distinguishable, characteristic, quality or phenotypic feature of a developing or mature sugar kelp." []
+created_by: XM
+creation_date: 2018-04-06T16:22:00Z
 
 [Term]
 id: CO_360:0000001
-name: Fresh weight - Measurement
-namespace: Sugar Kelp traitMethod
-def: "Weight of plants along 10 cm random rope samples at harvest" []
-relationship: method_of CO_360:0000000 ! Fresh weight
+name: Agronomical trait
+namespace: sugar_kelp_trait
+def: "A characteristic in sugar kelp that will add economic value to agricultural production." []
+is_a: CO_360:0000000 ! MARINE5 sugar kelp trait ontology
+created_by: XM
+creation_date: 2018-04-06T16:26:30Z
 
 [Term]
 id: CO_360:0000002
-name: g
-namespace: Sugar Kelp traitScale
-relationship: scale_of CO_360:0000001 ! Fresh weight - Measurement
+name: Biochemical trait
+namespace: sugar_kelp_trait
+def: "Biochemical make up of the sugar kelp." []
+is_a: CO_360:0000000 ! MARINE5 sugar kelp trait ontology
+created_by: XM
+creation_date: 2018-04-06T16:29:09Z
 
 [Term]
 id: CO_360:0000003
-name: FW_6M_g
-relationship: variable_of CO_360:0000000 ! Fresh weight
-relationship: variable_of CO_360:0000001 ! Fresh weight - Measurement
-relationship: variable_of CO_360:0000002 ! g
+name: Morphological trait
 namespace: sugar_kelp_trait
+def: "Physical attributes that describe the shape or form of sugar kelp." []
+is_a: CO_360:0000000 ! MARINE5 sugar kelp trait ontology
+created_by: XM
+creation_date: 2018-04-06T16:45:26Z
 
 [Term]
 id: CO_360:0000004
-name: Dry matter content
-def: "Dry matter content" []
-synonym: "DMC" EXACT []
-is_a: CO_360:0000200 ! Agronomical trait
+name: Physiological trait
 namespace: sugar_kelp_trait
+def: "Characteristics related to the functioning of living sugar kelp." []
+is_a: CO_360:0000000 ! MARINE5 sugar kelp trait ontology
+created_by: XM
+creation_date: 2018-04-06T16:46:26Z
 
 [Term]
 id: CO_360:0000005
-name: Dry matter content - Measurement
-namespace: Sugar Kelp traitMethod
-def: "Oven dry method (55C) at harvest" []
-relationship: method_of CO_360:0000004 ! Dry matter content
+name: Quality trait
+namespace: sugar_kelp_trait
+def: "A characteristic or distinguishing feature of sugar kelp related to its utilization after harvest." []
+is_a: CO_360:0000000 ! MARINE5 sugar kelp trait ontology
+created_by: XM
+creation_date: 2018-04-06T16:47:10Z
 
 [Term]
 id: CO_360:0000006
-name: g
-namespace: Sugar Kelp traitScale
-relationship: scale_of CO_360:0000005 ! Dry matter content - Measurement
+name: Stress trait
+namespace: sugar_kelp_trait
+def: "A characteristic related to sugar kelp functioning in the presence of a biotic or abiotic challenge to normal or optimal growing conditions." []
+is_a: CO_360:0000000 ! MARINE5 sugar kelp trait ontology
+created_by: XM
+creation_date: 2018-04-06T16:47:56Z
 
 [Term]
 id: CO_360:0000007
-name: DMC_6M_g
-relationship: variable_of CO_360:0000004 ! Dry matter content
-relationship: variable_of CO_360:0000005 ! Dry matter content - Measurement
-relationship: variable_of CO_360:0000006 ! g
+name: Blade length 3
 namespace: sugar_kelp_trait
-
+def: "Blade length at 3 months after planting." []
+is_a: CO_360:0000001 ! Agronomical trait
+created_by: XM
+creation_date: 2018-04-07T15:29:20Z
 
 [Term]
 id: CO_360:0000008
-name: Blade length
-def: "Blade length" []
-synonym: "BL" EXACT []
-is_a: CO_360:0000202 ! Morphological trait
+name: Blade length 6
 namespace: sugar_kelp_trait
+def: "Blade length at 6 months after planting." []
+is_a: CO_360:0000001 ! Agronomical trait
+created_by: XM
+creation_date: 2018-04-07T15:29:20Z
 
 [Term]
 id: CO_360:0000009
-name: Blade length - Measurement
-namespace: Sugar Kelp traitMethod
-def: "Direct measurements of 10 blades randomly sampled at 3 months post-planting" []
-relationship: method_of CO_360:0000008 ! Blade length
+name: Blade width 10cm
+namespace: sugar_kelp_trait
+def: "Blade width at 10cm." []
+is_a: CO_360:0000001 ! Agronomical trait
+created_by: XM
+creation_date: 2018-04-07T15:29:20Z
 
 [Term]
 id: CO_360:0000010
-name: cm
-namespace: Sugar Kelp traitScale
-relationship: scale_of CO_360:0000009 ! Blade length - Measurement
+name: Blade width widest
+namespace: sugar_kelp_trait
+def: "Blade width at the widest." []
+is_a: CO_360:0000001 ! Agronomical trait
+created_by: XM
+creation_date: 2018-04-07T15:29:20Z
 
 [Term]
 id: CO_360:0000011
-name: BL_3M_cm
-relationship: variable_of CO_360:0000008 ! Blade length
-relationship: variable_of CO_360:0000009 ! Blade length - Measurement
-relationship: variable_of CO_360:0000010 ! cm
+name: Blade thickness
 namespace: sugar_kelp_trait
+def: "Blade thickness." []
+is_a: CO_360:0000001 ! Agronomical trait
+created_by: XM
+creation_date: 2018-04-07T15:29:20Z
 
 [Term]
 id: CO_360:0000012
-name: Blade length 2
-def: "Blade length" []
-synonym: "BL" EXACT []
-is_a:CO_360:0000202 ! Morphological trait
+name: Dry matter content
 namespace: sugar_kelp_trait
+is_a: CO_360:0000001 ! Agronomical trait
+created_by: XM
+creation_date: 2018-04-07T15:29:20Z
 
 [Term]
 id: CO_360:0000013
-name: Blade length - Measurement
-namespace: Sugar Kelp traitMethod
-def: "Direct measurements of 10 blades randomly sampled at around 6 months post-planting" []
-relationship: method_of CO_360:0000012 ! Blade length 2
+name: Fresh Weight
+namespace: sugar_kelp_trait
+is_a: CO_360:0000001 ! Agronomical trait
+created_by: XM
+creation_date: 2018-04-07T15:29:20Z
 
 [Term]
 id: CO_360:0000014
-name: cm
-namespace: Sugar Kelp traitScale
-relationship: scale_of CO_360:0000013 ! Blade length - Measurement
+name: Growth rate
+namespace: sugar_kelp_trait
+is_a: CO_360:0000001 ! Agronomical trait
+created_by: XM
+creation_date: 2018-04-07T15:29:20Z
 
 [Term]
 id: CO_360:0000015
-name: BL_6M_cm
-relationship: variable_of CO_360:0000012 ! Blade length 2
-relationship: variable_of CO_360:0000013 ! Blade length - Measurement
-relationship: variable_of CO_360:0000014 ! cm
+name: Stipe composition
 namespace: sugar_kelp_trait
+is_a: CO_360:0000001 ! Agronomical trait
+created_by: XM
+creation_date: 2018-04-07T15:29:20Z
 
 [Term]
 id: CO_360:0000016
-name: Blade width
-def: "Blade width" []
-synonym: "BW" EXACT []
-is_a:CO_360:0000202 ! Morphological trait
+name: Stipe diameter
 namespace: sugar_kelp_trait
+is_a: CO_360:0000001 ! Agronomical trait
+created_by: XM
+creation_date: 2018-04-07T15:29:20Z
 
 [Term]
 id: CO_360:0000017
-name: Blade width - Measurement
-namespace: Sugar Kelp traitMethod
-def: "Direct measurements of 10 blades randomly sampled at 3 months post-planting" []
-relationship: method_of CO_360:0000016 ! Blade width
+name: Stipe length
+namespace: sugar_kelp_trait
+is_a: CO_360:0000001 ! Agronomical trait
+created_by: XM
+creation_date: 2018-04-07T15:29:20Z
 
 [Term]
 id: CO_360:0000018
-name: cm
-namespace: Sugar Kelp traitScale
-relationship: scale_of CO_360:0000017 ! Blade width - Measurement
+name: Al content
+namespace: sugar_kelp_trait
+is_a: CO_360:0000002 ! Biochemical trait
+created_by: XM
+creation_date: 2018-04-07T15:39:43Z
 
 [Term]
 id: CO_360:0000019
-name: BW_3M_cm
-relationship: variable_of CO_360:0000016 ! Blade width
-relationship: variable_of CO_360:0000017 ! Blade width - Measurement
-relationship: variable_of CO_360:0000018 ! cm
+name: As content
 namespace: sugar_kelp_trait
-
+is_a: CO_360:0000002 ! Biochemical trait
+created_by: XM
+creation_date: 2018-04-07T15:39:43Z
 
 [Term]
 id: CO_360:0000020
-name: Blade width 2
-def: "Blade width" []
-synonym: "BW" EXACT []
-is_a:CO_360:0000202 ! Morphological trait
+name: Ash content
 namespace: sugar_kelp_trait
+is_a: CO_360:0000002 ! Biochemical trait
+created_by: XM
+creation_date: 2018-04-07T15:39:43Z
 
 [Term]
 id: CO_360:0000021
-name: Blade width - Measurement
-namespace: Sugar Kelp traitMethod
-def: "Direct measurements of 10 blades randomly sampled at around 6 months post-planting" []
-relationship: method_of CO_360:0000020 ! Blade width 2
+name: B content
+namespace: sugar_kelp_trait
+is_a: CO_360:0000002 ! Biochemical trait
+created_by: XM
+creation_date: 2018-04-07T15:39:43Z
 
 [Term]
 id: CO_360:0000022
-name: cm
-namespace: Sugar Kelp traitScale
-relationship: scale_of CO_360:0000021 ! Blade width - Measurement
+name: C content
+namespace: sugar_kelp_trait
+is_a: CO_360:0000002 ! Biochemical trait
+created_by: XM
+creation_date: 2018-04-07T15:39:43Z
 
 [Term]
 id: CO_360:0000023
-name: BW_6M_cm
-relationship: variable_of CO_360:0000020 ! Blade width 2
-relationship: variable_of CO_360:0000021 ! Blade width - Measurement
-relationship: variable_of CO_360:0000022 ! cm
+name: Ca content
 namespace: sugar_kelp_trait
+is_a: CO_360:0000002 ! Biochemical trait
+created_by: XM
+creation_date: 2018-04-07T15:39:43Z
 
 [Term]
 id: CO_360:0000024
-name: Stipe length 3 months
-def: "Stipe length measured 3 months after planting" []
-synonym: "SL" EXACT []
-is_a:CO_360:0000202 ! Morphological trait
+name: Carbohydrate / fiber content
 namespace: sugar_kelp_trait
+is_a: CO_360:0000002 ! Biochemical trait
+created_by: XM
+creation_date: 2018-04-07T15:39:43Z
 
 [Term]
 id: CO_360:0000025
-name: Stipe length - Measurement
-namespace: Sugar Kelp traitMethod
-def: "Direct measurements of 10 blades randomly sampled at 3 months post-planting" []
-relationship: method_of CO_360:0000024 ! Stipe length
+name: Cd content
+namespace: sugar_kelp_trait
+is_a: CO_360:0000002 ! Biochemical trait
+created_by: XM
+creation_date: 2018-04-07T15:39:43Z
 
 [Term]
 id: CO_360:0000026
-name: cm
-namespace: Sugar Kelp traitScale
-relationship: scale_of CO_360:0000025 ! Stipe length - Measurement
+name: Cl content
+namespace: sugar_kelp_trait
+is_a: CO_360:0000002 ! Biochemical trait
+created_by: XM
+creation_date: 2018-04-07T15:39:43Z
 
 [Term]
 id: CO_360:0000027
-name: SL_3M_cm
-relationship: variable_of CO_360:0000024 ! Stipe length
-relationship: variable_of CO_360:0000025 ! Stipe length - Measurement
-relationship: variable_of CO_360:0000026 ! cm
+name: Co content
 namespace: sugar_kelp_trait
+is_a: CO_360:0000002 ! Biochemical trait
+created_by: XM
+creation_date: 2018-04-07T15:39:43Z
 
 [Term]
 id: CO_360:0000028
-name: Stipe length 6 months
-def: "Stipe length measured 6 months after planting" []
-synonym: "SL" EXACT []
-is_a:CO_360:0000202 ! Morphological trait
+name: Cr content
 namespace: sugar_kelp_trait
+is_a: CO_360:0000002 ! Biochemical trait
+created_by: XM
+creation_date: 2018-04-07T15:39:43Z
 
 [Term]
 id: CO_360:0000029
-name: Stipe length - Measurement
-namespace: Sugar Kelp traitMethod
-def: "Direct measurements of 10 blades randomly sampled at around 6 months post-planting" []
-relationship: method_of CO_360:0000028 ! Stipe length 2
+name: Cu content
+namespace: sugar_kelp_trait
+is_a: CO_360:0000002 ! Biochemical trait
+created_by: XM
+creation_date: 2018-04-07T15:39:43Z
 
 [Term]
 id: CO_360:0000030
-name: cm
-namespace: Sugar Kelp traitScale
-relationship: scale_of CO_360:0000029 ! Stipe length - Measurement
+name: Fe content
+namespace: sugar_kelp_trait
+is_a: CO_360:0000002 ! Biochemical trait
+created_by: XM
+creation_date: 2018-04-07T15:39:43Z
 
 [Term]
 id: CO_360:0000031
-name: SL_6M_cm
-relationship: variable_of CO_360:0000028 ! Stipe length 2
-relationship: variable_of CO_360:0000029 ! Stipe length - Measurement
-relationship: variable_of CO_360:0000030 ! cm
+name: Ga content
 namespace: sugar_kelp_trait
+is_a: CO_360:0000002 ! Biochemical trait
+created_by: XM
+creation_date: 2018-04-07T15:39:43Z
 
 [Term]
 id: CO_360:0000032
-name: Growth rate
-def: "Growth rate" []
-synonym: "GR" EXACT []
-is_a: CO_360:0000204 ! Physiological trait
+name: H content
 namespace: sugar_kelp_trait
+is_a: CO_360:0000002 ! Biochemical trait
+created_by: XM
+creation_date: 2018-04-07T15:39:43Z
 
 [Term]
 id: CO_360:0000033
-name: Growth rate  - Computation
-namespace: Sugar Kelp traitMethod
-def: "Calculation based on two time points" []
-relationship: method_of CO_360:0000032 ! Growth rate
+name: I content
+namespace: sugar_kelp_trait
+is_a: CO_360:0000002 ! Biochemical trait
+created_by: XM
+creation_date: 2018-04-07T15:39:43Z
 
 [Term]
 id: CO_360:0000034
-name: cm/day
-namespace: Sugar Kelp traitScale
-relationship: scale_of CO_360:0000033 ! Growth rate  - Computation
+name: In content
+namespace: sugar_kelp_trait
+is_a: CO_360:0000002 ! Biochemical trait
+created_by: XM
+creation_date: 2018-04-07T15:39:43Z
 
 [Term]
 id: CO_360:0000035
-name: GR_Comp_cmd
-relationship: variable_of CO_360:0000032 ! Growth rate
-relationship: variable_of CO_360:0000033 ! Growth rate  - Computation
-relationship: variable_of CO_360:0000034 ! cm/day
+name: K content
 namespace: sugar_kelp_trait
+is_a: CO_360:0000002 ! Biochemical trait
+created_by: XM
+creation_date: 2018-04-07T15:39:43Z
 
 [Term]
 id: CO_360:0000036
-name: Maturity
-def: "Presence or absence in blades" []
-synonym: "M" EXACT []
-is_a: CO_360:0000203 ! Phenological trait
+name: Li content
 namespace: sugar_kelp_trait
+is_a: CO_360:0000002 ! Biochemical trait
+created_by: XM
+creation_date: 2018-04-07T15:39:43Z
 
 [Term]
 id: CO_360:0000037
-name: Maturity - Estimation
-namespace: Sugar Kelp traitMethod
-def: "Presence or absence in blades" []
-relationship: method_of CO_360:0000036 ! Maturity
+name: Lipid content
+namespace: sugar_kelp_trait
+is_a: CO_360:0000002 ! Biochemical trait
+created_by: XM
+creation_date: 2018-04-07T15:39:43Z
 
 [Term]
 id: CO_360:0000038
-name: No scale name found
-namespace: Sugar Kelp traitScale
-relationship: scale_of CO_360:0000037 ! Maturity - Estimation
-
-[Term]
-id: CO_360:0000038/1
-name: Absence
-namespace: Sugar Kelp traitScale
-synonym: "0 " EXACT []
-is_a: CO_360:0000038 ! No scale name found
-
-[Term]
-id: CO_360:0000038/2
-name: Presence
-namespace: Sugar Kelp traitScale
-synonym: "1 " EXACT []
-is_a: CO_360:0000038 ! No scale name found
+name: Blade length at 3 months after planting in cm
+namespace: sugar_kelp_trait
+def: "Blade length measurements of 10 blades randomly sampled at 3 months post-planting in centimeter (cm)." []
+relationship: variable_of CO_360:0000007 ! Blade length 3
+relationship: variable_of CO_360:0000063 ! Measurement:Blade length 3_method
+relationship: variable_of CO_360:0000064 ! Blade length 3 scale
+created_by: XM
+creation_date: 2018-04-07T15:50:26Z
 
 [Term]
 id: CO_360:0000039
-name: M_E_0to1
-relationship: variable_of CO_360:0000036 ! Maturity
-relationship: variable_of CO_360:0000037 ! Maturity - Estimation
-relationship: variable_of CO_360:0000038 ! No scale name found
+name: Mg content
 namespace: sugar_kelp_trait
+is_a: CO_360:0000002 ! Biochemical trait
+created_by: XM
+creation_date: 2018-04-07T15:39:43Z
 
 [Term]
 id: CO_360:0000040
-name: Carbohydrate / fiber content
-def: "Carbohydrate / fiber content" []
-synonym: "CFC" EXACT []
-is_a: CO_360:0000201 ! Biochemical trait
+name: Mn content
 namespace: sugar_kelp_trait
+is_a: CO_360:0000002 ! Biochemical trait
+created_by: XM
+creation_date: 2018-04-07T15:39:43Z
 
 [Term]
 id: CO_360:0000041
-name: Carbohydrate / fiber content - Measurement
-namespace: Sugar Kelp traitMethod
-def: "Done by New Jersey Feed Labs" []
-relationship: method_of CO_360:0000040 ! Carbohydrate / fiber content
+name: Mo content
+namespace: sugar_kelp_trait
+is_a: CO_360:0000002 ! Biochemical trait
+created_by: XM
+creation_date: 2018-04-07T15:39:43Z
 
 [Term]
 id: CO_360:0000042
-name: mg
-namespace: Sugar Kelp traitScale
-relationship: scale_of CO_360:0000041 ! Carbohydrate / fiber content - Measurement
+name: N content
+namespace: sugar_kelp_trait
+is_a: CO_360:0000002 ! Biochemical trait
+created_by: XM
+creation_date: 2018-04-07T15:39:43Z
 
 [Term]
 id: CO_360:0000043
-name: CFC_M_mg
-relationship: variable_of CO_360:0000040 ! Carbohydrate / fiber content
-relationship: variable_of CO_360:0000041 ! Carbohydrate / fiber content - Measurement
-relationship: variable_of CO_360:0000042 ! mg
+name: Na content
 namespace: sugar_kelp_trait
+is_a: CO_360:0000002 ! Biochemical trait
+created_by: XM
+creation_date: 2018-04-07T15:39:43Z
 
 [Term]
 id: CO_360:0000044
-name: Protein content
-def: "Protein content" []
-synonym: "PC" EXACT []
-is_a: CO_360:0000201 ! Biochemical trait
+name: Ni content
 namespace: sugar_kelp_trait
+is_a: CO_360:0000002 ! Biochemical trait
+created_by: XM
+creation_date: 2018-04-07T15:39:43Z
 
 [Term]
 id: CO_360:0000045
-name: Protein content  - Measurement
-namespace: Sugar Kelp traitMethod
-def: "Done by New Jersey Feed Labs" []
-relationship: method_of CO_360:0000044 ! Protein content
+name: O content
+namespace: sugar_kelp_trait
+is_a: CO_360:0000002 ! Biochemical trait
+created_by: XM
+creation_date: 2018-04-07T15:39:43Z
 
 [Term]
 id: CO_360:0000046
-name: mg
-namespace: Sugar Kelp traitScale
-relationship: scale_of CO_360:0000045 ! Protein content  - Measurement
+name: Pb content
+namespace: sugar_kelp_trait
+is_a: CO_360:0000002 ! Biochemical trait
+created_by: XM
+creation_date: 2018-04-07T15:39:43Z
 
 [Term]
 id: CO_360:0000047
-name: PC_M_mg
-relationship: variable_of CO_360:0000044 ! Protein content
-relationship: variable_of CO_360:0000045 ! Protein content  - Measurement
-relationship: variable_of CO_360:0000046 ! mg
+name: Protein content
 namespace: sugar_kelp_trait
+is_a: CO_360:0000002 ! Biochemical trait
+created_by: XM
+creation_date: 2018-04-07T15:39:43Z
 
 [Term]
 id: CO_360:0000048
-name: Lipid content
-def: "Lipid content" []
-synonym: "LC" EXACT []
-is_a: CO_360:0000201 ! Biochemical trait
+name: Rb content
 namespace: sugar_kelp_trait
+is_a: CO_360:0000002 ! Biochemical trait
+created_by: XM
+creation_date: 2018-04-07T15:39:43Z
 
 [Term]
 id: CO_360:0000049
-name: Lipid content  - Measurement
-namespace: Sugar Kelp traitMethod
-def: "Done by New Jersey Feed Labs" []
-relationship: method_of CO_360:0000048 ! Lipid content
+name: S content
+namespace: sugar_kelp_trait
+is_a: CO_360:0000002 ! Biochemical trait
+created_by: XM
+creation_date: 2018-04-07T15:39:43Z
 
 [Term]
 id: CO_360:0000050
-name: mg
-namespace: Sugar Kelp traitScale
-relationship: scale_of CO_360:0000049 ! Lipid content  - Measurement
+name: Se content
+namespace: sugar_kelp_trait
+is_a: CO_360:0000002 ! Biochemical trait
+created_by: XM
+creation_date: 2018-04-07T15:39:43Z
 
 [Term]
 id: CO_360:0000051
-name: LC_M_mg
-relationship: variable_of CO_360:0000048 ! Lipid content
-relationship: variable_of CO_360:0000049 ! Lipid content  - Measurement
-relationship: variable_of CO_360:0000050 ! mg
+name: SO content
 namespace: sugar_kelp_trait
+is_a: CO_360:0000002 ! Biochemical trait
+created_by: XM
+creation_date: 2018-04-07T15:39:43Z
 
 [Term]
 id: CO_360:0000052
-name: Ash content
-def: "Ash content" []
-synonym: "AC" EXACT []
-is_a: CO_360:0000201 ! Biochemical trait
+name: Sr content
 namespace: sugar_kelp_trait
+is_a: CO_360:0000002 ! Biochemical trait
+created_by: XM
+creation_date: 2018-04-07T15:39:43Z
 
 [Term]
 id: CO_360:0000053
-name: Ash content  - Measurement
-namespace: Sugar Kelp traitMethod
-def: "Done by New Jersey Feed Labs" []
-relationship: method_of CO_360:0000052 ! Ash content
+name: Zn content
+namespace: sugar_kelp_trait
+is_a: CO_360:0000002 ! Biochemical trait
+created_by: XM
+creation_date: 2018-04-07T15:39:43Z
 
 [Term]
 id: CO_360:0000054
-name: mg
-namespace: Sugar Kelp traitScale
-relationship: scale_of CO_360:0000053 ! Ash content  - Measurement
+name: Bullations
+namespace: sugar_kelp_trait
+is_a: CO_360:0000003 ! Morphological trait
+created_by: XM
+creation_date: 2018-04-07T15:47:42Z
 
 [Term]
 id: CO_360:0000055
-name: AC_M_mg
-relationship: variable_of CO_360:0000052 ! Ash content
-relationship: variable_of CO_360:0000053 ! Ash content  - Measurement
-relationship: variable_of CO_360:0000054 ! mg
+name: Present of sorus
 namespace: sugar_kelp_trait
+is_a: CO_360:0000003 ! Morphological trait
+created_by: XM
+creation_date: 2018-04-07T15:47:42Z
 
 [Term]
 id: CO_360:0000056
-name: C content
-def: "C content" []
-synonym: "CC" EXACT []
-is_a:CO_360:0000201 ! Biochemical trait
+name: Sorus Area
 namespace: sugar_kelp_trait
+is_a: CO_360:0000003 ! Morphological trait
+created_by: XM
+creation_date: 2018-04-07T15:47:42Z
 
 [Term]
 id: CO_360:0000057
-name: C content  - Measurement
-namespace: Sugar Kelp traitMethod
-def: "Ionomics facility, Donald Danforth Center" []
-relationship: method_of CO_360:0000056 ! C content
+name: Present of fouling
+namespace: sugar_kelp_trait
+is_a: CO_360:0000003 ! Morphological trait
+created_by: XM
+creation_date: 2018-04-07T15:47:42Z
 
 [Term]
 id: CO_360:0000058
-name: mg
-namespace: Sugar Kelp traitScale
-relationship: scale_of CO_360:0000057 ! C content  - Measurement
+name: Fouling Area
+namespace: sugar_kelp_trait
+is_a: CO_360:0000003 ! Morphological trait
+created_by: XM
+creation_date: 2018-04-07T15:47:42Z
 
 [Term]
 id: CO_360:0000059
-name: CC_M_mg
-relationship: variable_of CO_360:0000056 ! C content
-relationship: variable_of CO_360:0000057 ! C content  - Measurement
-relationship: variable_of CO_360:0000058 ! mg
+name: Dried/herbarium sample
 namespace: sugar_kelp_trait
+is_a: CO_360:0000003 ! Morphological trait
+created_by: XM
+creation_date: 2018-04-07T15:47:42Z
 
 [Term]
 id: CO_360:0000060
-name: H content
-def: "H content" []
-synonym: "HC" EXACT []
-is_a: CO_360:0000201 ! Biochemical trait
+name: Bryozoan
 namespace: sugar_kelp_trait
+is_a: CO_360:0000006 ! Stress trait
+created_by: XM
+creation_date: 2018-04-07T15:48:24Z
 
 [Term]
 id: CO_360:0000061
-name: H content  - Measurement
-namespace: Sugar Kelp traitMethod
-def: "Ionomics facility, Donald Danforth Center" []
-relationship: method_of CO_360:0000060 ! H content
+name: Herbavores
+namespace: sugar_kelp_trait
+is_a: CO_360:0000006 ! Stress trait
+created_by: XM
+creation_date: 2018-04-07T15:48:24Z
 
 [Term]
 id: CO_360:0000062
-name: mg
-namespace: Sugar Kelp traitScale
-relationship: scale_of CO_360:0000061 ! H content  - Measurement
+name: White patches
+namespace: sugar_kelp_trait
+is_a: CO_360:0000006 ! Stress trait
+created_by: XM
+creation_date: 2018-04-07T15:48:24Z
 
 [Term]
 id: CO_360:0000063
-name: HC_M_mg
-relationship: variable_of CO_360:0000060 ! H content
-relationship: variable_of CO_360:0000061 ! H content  - Measurement
-relationship: variable_of CO_360:0000062 ! mg
-namespace: sugar_kelp_trait
+name: Measurement:Blade length 3_method
+namespace: kelp_method
+def: "Direct measurements of 10 blades randomly sampled at 3 months post-planting." []
+relationship: method_of CO_360:0000007 ! Blade length 3
+created_by: XM
+creation_date: 2018-04-08T10:56:59Z
 
 [Term]
 id: CO_360:0000064
-name: N content
-def: "N content" []
-synonym: "NC" EXACT []
-is_a:CO_360:0000201 ! Biochemical trait
-namespace: sugar_kelp_trait
+name: Blade length 3 scale
+namespace: kelp_scale
+def: "Blade length 3 scale in cm." []
+relationship: scale_of CO_360:0000063 ! Measurement:Blade length 3_method
+created_by: XM
+creation_date: 2018-04-08T10:58:24Z
 
 [Term]
 id: CO_360:0000065
-name: N content  - Measurement
-namespace: Sugar Kelp traitMethod
-def: "Ionomics facility, Donald Danforth Center" []
-relationship: method_of CO_360:0000064 ! N content
+name: Blade length 6 months after planting in cm
+namespace: sugar_kelp_trait
+def: "Blade length measurements of 10 blades randomly sampled at 6 months post-planting in centimeter (cm)." []
+relationship: variable_of CO_360:0000008 ! Blade length 6
+relationship: variable_of CO_360:0000066 ! Measurement:Blade length 6_method
+relationship: variable_of CO_360:0000067 ! Blade length 6 scale
+created_by: XM
+creation_date: 2018-04-08T12:18:11Z
 
 [Term]
 id: CO_360:0000066
-name: mg
-namespace: Sugar Kelp traitScale
-relationship: scale_of CO_360:0000065 ! N content  - Measurement
+name: Measurement:Blade length 6_method
+namespace: kelp_method
+def: "Direct measurements of 10 blades randomly sampled at 3 months post-planting." []
+relationship: method_of CO_360:0000008 ! Blade length 6
+created_by: XM
+creation_date: 2018-04-08T12:19:23Z
 
 [Term]
 id: CO_360:0000067
-name: NC_M_mg
-relationship: variable_of CO_360:0000064 ! N content
-relationship: variable_of CO_360:0000065 ! N content  - Measurement
-relationship: variable_of CO_360:0000066 ! mg
-namespace: sugar_kelp_trait
-
-[Term]
-id: CO_360:0000068
-name: Li content
-def: "Li content" []
-synonym: "LIC" EXACT []
-is_a:CO_360:0000201 ! Biochemical trait
-namespace: sugar_kelp_trait
-
-[Term]
-id: CO_360:0000069
-name: Li content  - Measurement
-namespace: Sugar Kelp traitMethod
-def: "Ionomics facility, Donald Danforth Center" []
-relationship: method_of CO_360:0000068 ! Li content
-
-[Term]
-id: CO_360:0000070
-name: mg
-namespace: Sugar Kelp traitScale
-relationship: scale_of CO_360:0000069 ! Li content  - Measurement
-
-[Term]
-id: CO_360:0000071
-name: LIC_M_mg
-relationship: variable_of CO_360:0000068 ! Li content
-relationship: variable_of CO_360:0000069 ! Li content  - Measurement
-relationship: variable_of CO_360:0000070 ! mg
-namespace: sugar_kelp_trait
-
-[Term]
-id: CO_360:0000072
-name: Na content
-def: "Na content" []
-synonym: "NAC" EXACT []
-is_a:CO_360:0000201 ! Biochemical trait
-namespace: sugar_kelp_trait
-
-[Term]
-id: CO_360:0000073
-name: Na content  - Measurement
-namespace: Sugar Kelp traitMethod
-def: "Ionomics facility, Donald Danforth Center" []
-relationship: method_of CO_360:0000072 ! Na content
-
-[Term]
-id: CO_360:0000074
-name: mg
-namespace: Sugar Kelp traitScale
-relationship: scale_of CO_360:0000073 ! Na content  - Measurement
-
-[Term]
-id: CO_360:0000075
-name: NAC_M_mg
-relationship: variable_of CO_360:0000072 ! Na content
-relationship: variable_of CO_360:0000073 ! Na content  - Measurement
-relationship: variable_of CO_360:0000074 ! mg
-namespace: sugar_kelp_trait
-
-[Term]
-id: CO_360:0000076
-name: Mg content
-def: "Mg content" []
-synonym: "MGC" EXACT []
-is_a:CO_360:0000201 ! Biochemical trait
-namespace: sugar_kelp_trait
-
-[Term]
-id: CO_360:0000077
-name: Mg content  - Measurement
-namespace: Sugar Kelp traitMethod
-def: "Ionomics facility, Donald Danforth Center" []
-relationship: method_of CO_360:0000076 ! Mg content
-
-[Term]
-id: CO_360:0000078
-name: mg
-namespace: Sugar Kelp traitScale
-relationship: scale_of CO_360:0000077 ! Mg content  - Measurement
-
-[Term]
-id: CO_360:0000079
-name: MGC_M_mg
-relationship: variable_of CO_360:0000076 ! Mg content
-relationship: variable_of CO_360:0000077 ! Mg content  - Measurement
-relationship: variable_of CO_360:0000078 ! mg
-namespace: sugar_kelp_trait
-
-[Term]
-id: CO_360:0000080
-name: O content
-def: "O content" []
-synonym: "OC" EXACT []
-is_a:CO_360:0000201 ! Biochemical trait
-namespace: sugar_kelp_trait
-
-[Term]
-id: CO_360:0000081
-name: O content  - Measurement
-namespace: Sugar Kelp traitMethod
-def: "Ionomics facility, Donald Danforth Center" []
-relationship: method_of CO_360:0000080 ! O content
-
-[Term]
-id: CO_360:0000082
-name: mg
-namespace: Sugar Kelp traitScale
-relationship: scale_of CO_360:0000081 ! O content  - Measurement
-
-[Term]
-id: CO_360:0000083
-name: OC_M_mg
-relationship: variable_of CO_360:0000080 ! O content
-relationship: variable_of CO_360:0000081 ! O content  - Measurement
-relationship: variable_of CO_360:0000082 ! mg
-namespace: sugar_kelp_trait
-
-[Term]
-id: CO_360:0000084
-name: Cl content
-def: "Cl content" []
-synonym: "CLC" EXACT []
-is_a:CO_360:0000201 ! Biochemical trait
-namespace: sugar_kelp_trait
-
-[Term]
-id: CO_360:0000085
-name: Cl content  - Measurement
-namespace: Sugar Kelp traitMethod
-def: "Ionomics facility, Donald Danforth Center" []
-relationship: method_of CO_360:0000084 ! Cl content
-
-[Term]
-id: CO_360:0000086
-name: mg
-namespace: Sugar Kelp traitScale
-relationship: scale_of CO_360:0000085 ! Cl content  - Measurement
-
-[Term]
-id: CO_360:0000087
-name: CLC_M_mg
-relationship: variable_of CO_360:0000084 ! Cl content
-relationship: variable_of CO_360:0000085 ! Cl content  - Measurement
-relationship: variable_of CO_360:0000086 ! mg
-namespace: sugar_kelp_trait
-
-[Term]
-id: CO_360:0000088
-name: Ca content
-def: "Ca content" []
-synonym: "CAC" EXACT []
-is_a:CO_360:0000201 ! Biochemical trait
-namespace: sugar_kelp_trait
-
-[Term]
-id: CO_360:0000089
-name: Ca content  - Measurement
-namespace: Sugar Kelp traitMethod
-def: "Ionomics facility, Donald Danforth Center" []
-relationship: method_of CO_360:0000088 ! Ca content
-
-[Term]
-id: CO_360:0000090
-name: mg
-namespace: Sugar Kelp traitScale
-relationship: scale_of CO_360:0000089 ! Ca content  - Measurement
-
-[Term]
-id: CO_360:0000091
-name: CAC_M_mg
-relationship: variable_of CO_360:0000088 ! Ca content
-relationship: variable_of CO_360:0000089 ! Ca content  - Measurement
-relationship: variable_of CO_360:0000090 ! mg
-namespace: sugar_kelp_trait
-
-[Term]
-id: CO_360:0000092
-name: SO content
-def: "SO content" []
-synonym: "SOC" EXACT []
-is_a:CO_360:0000201 ! Biochemical trait
-namespace: sugar_kelp_trait
-
-[Term]
-id: CO_360:0000093
-name: SO content  - Measurement
-namespace: Sugar Kelp traitMethod
-def: "Ionomics facility, Donald Danforth Center" []
-relationship: method_of CO_360:0000092 ! SO content
-
-[Term]
-id: CO_360:0000094
-name: mg
-namespace: Sugar Kelp traitScale
-relationship: scale_of CO_360:0000093 ! SO content  - Measurement
-
-[Term]
-id: CO_360:0000095
-name: SOC_M_mg
-relationship: variable_of CO_360:0000092 ! SO content
-relationship: variable_of CO_360:0000093 ! SO content  - Measurement
-relationship: variable_of CO_360:0000094 ! mg
-namespace: sugar_kelp_trait
-
-[Term]
-id: CO_360:0000096
-name: Fe content
-def: "Fe content" []
-synonym: "FEC" EXACT []
-is_a:CO_360:0000201 ! Biochemical trait
-namespace: sugar_kelp_trait
-
-[Term]
-id: CO_360:0000097
-name: Fe content  - Measurement
-namespace: Sugar Kelp traitMethod
-def: "Ionomics facility, Donald Danforth Center" []
-relationship: method_of CO_360:0000096 ! Fe content
-
-[Term]
-id: CO_360:0000098
-name: mg
-namespace: Sugar Kelp traitScale
-relationship: scale_of CO_360:0000097 ! Fe content  - Measurement
-
-[Term]
-id: CO_360:0000099
-name: FEC_M_mg
-relationship: variable_of CO_360:0000096 ! Fe content
-relationship: variable_of CO_360:0000097 ! Fe content  - Measurement
-relationship: variable_of CO_360:0000098 ! mg
-namespace: sugar_kelp_trait
-
-[Term]
-id: CO_360:0000100
-name: Co content
-def: "Co content" []
-synonym: "COC" EXACT []
-is_a:CO_360:0000201 ! Biochemical trait
-namespace: sugar_kelp_trait
-
-[Term]
-id: CO_360:0000101
-name: Co content  - Measurement
-namespace: Sugar Kelp traitMethod
-def: "Ionomics facility, Donald Danforth Center" []
-relationship: method_of CO_360:0000100 ! Co content
-
-[Term]
-id: CO_360:0000102
-name: mg
-namespace: Sugar Kelp traitScale
-relationship: scale_of CO_360:0000101 ! Co content  - Measurement
-
-[Term]
-id: CO_360:0000103
-name: COC_M_mg
-relationship: variable_of CO_360:0000100 ! Co content
-relationship: variable_of CO_360:0000101 ! Co content  - Measurement
-relationship: variable_of CO_360:0000102 ! mg
-namespace: sugar_kelp_trait
-
-[Term]
-id: CO_360:0000104
-name: Cu content
-def: "Cu content" []
-synonym: "CUC" EXACT []
-is_a:CO_360:0000201 ! Biochemical trait
-namespace: sugar_kelp_trait
-
-[Term]
-id: CO_360:0000105
-name: Cu content  - Measurement
-namespace: Sugar Kelp traitMethod
-def: "Ionomics facility, Donald Danforth Center" []
-relationship: method_of CO_360:0000104 ! Cu content
-
-[Term]
-id: CO_360:0000106
-name: mg
-namespace: Sugar Kelp traitScale
-relationship: scale_of CO_360:0000105 ! Cu content  - Measurement
-
-[Term]
-id: CO_360:0000107
-name: CUC_M_mg
-relationship: variable_of CO_360:0000104 ! Cu content
-relationship: variable_of CO_360:0000105 ! Cu content  - Measurement
-relationship: variable_of CO_360:0000106 ! mg
-namespace: sugar_kelp_trait
-
-[Term]
-id: CO_360:0000108
-name: Zn content
-def: "Zn content" []
-synonym: "ZNC" EXACT []
-is_a:CO_360:0000201 ! Biochemical trait
-namespace: sugar_kelp_trait
-
-[Term]
-id: CO_360:0000109
-name: Zn content  - Measurement
-namespace: Sugar Kelp traitMethod
-def: "Ionomics facility, Donald Danforth Center" []
-relationship: method_of CO_360:0000108 ! Zn content
-
-[Term]
-id: CO_360:0000110
-name: mg
-namespace: Sugar Kelp traitScale
-relationship: scale_of CO_360:0000109 ! Zn content  - Measurement
-
-[Term]
-id: CO_360:0000111
-name: ZNC_M_mg
-relationship: variable_of CO_360:0000108 ! Zn content
-relationship: variable_of CO_360:0000109 ! Zn content  - Measurement
-relationship: variable_of CO_360:0000110 ! mg
-namespace: sugar_kelp_trait
-
-[Term]
-id: CO_360:0000112
-name: As content
-def: "As content" []
-synonym: "ASC" EXACT []
-is_a:CO_360:0000201 ! Biochemical trait
-namespace: sugar_kelp_trait
-
-[Term]
-id: CO_360:0000113
-name: As content  - Measurement
-namespace: Sugar Kelp traitMethod
-def: "Ionomics facility, Donald Danforth Center" []
-relationship: method_of CO_360:0000112 ! As content
-
-[Term]
-id: CO_360:0000114
-name: mg
-namespace: Sugar Kelp traitScale
-relationship: scale_of CO_360:0000113 ! As content  - Measurement
-
-[Term]
-id: CO_360:0000115
-name: ASC_M_mg
-relationship: variable_of CO_360:0000112 ! As content
-relationship: variable_of CO_360:0000113 ! As content  - Measurement
-relationship: variable_of CO_360:0000114 ! mg
-namespace: sugar_kelp_trait
-
-[Term]
-id: CO_360:0000116
-name: Se content
-def: "Se content" []
-synonym: "SEC" EXACT []
-is_a:CO_360:0000201 ! Biochemical trait
-namespace: sugar_kelp_trait
-
-[Term]
-id: CO_360:0000117
-name: Se content  - Measurement
-namespace: Sugar Kelp traitMethod
-def: "Ionomics facility, Donald Danforth Center" []
-relationship: method_of CO_360:0000116 ! Se content
-
-[Term]
-id: CO_360:0000118
-name: mg
-namespace: Sugar Kelp traitScale
-relationship: scale_of CO_360:0000117 ! Se content  - Measurement
-
-[Term]
-id: CO_360:0000119
-name: SEC_M_mg
-relationship: variable_of CO_360:0000116 ! Se content
-relationship: variable_of CO_360:0000117 ! Se content  - Measurement
-relationship: variable_of CO_360:0000118 ! mg
-namespace: sugar_kelp_trait
-
-[Term]
-id: CO_360:0000120
-name: Sr content
-def: "Sr content" []
-synonym: "SRC" EXACT []
-is_a:CO_360:0000201 ! Biochemical trait
-namespace: sugar_kelp_trait
-
-[Term]
-id: CO_360:0000121
-name: Sr content  - Measurement
-namespace: Sugar Kelp traitMethod
-def: "Ionomics facility, Donald Danforth Center" []
-relationship: method_of CO_360:0000120 ! Sr content
-
-[Term]
-id: CO_360:0000122
-name: mg
-namespace: Sugar Kelp traitScale
-relationship: scale_of CO_360:0000121 ! Sr content  - Measurement
-
-[Term]
-id: CO_360:0000123
-name: SRC_M_mg
-relationship: variable_of CO_360:0000120 ! Sr content
-relationship: variable_of CO_360:0000121 ! Sr content  - Measurement
-relationship: variable_of CO_360:0000122 ! mg
-namespace: sugar_kelp_trait
-
-[Term]
-id: CO_360:0000124
-name: Mo content
-def: "Mo content" []
-synonym: "MOC" EXACT []
-is_a:CO_360:0000201 ! Biochemical trait
-namespace: sugar_kelp_trait
-
-[Term]
-id: CO_360:0000125
-name: Mo content  - Measurement
-namespace: Sugar Kelp traitMethod
-def: "Ionomics facility, Donald Danforth Center" []
-relationship: method_of CO_360:0000124 ! Mo content
-
-[Term]
-id: CO_360:0000126
-name: mg
-namespace: Sugar Kelp traitScale
-relationship: scale_of CO_360:0000125 ! Mo content  - Measurement
-
-
-[Term]
-id: CO_360:0000127
-name: MOC_M_mg
-relationship: variable_of CO_360:0000124 ! Mo content
-relationship: variable_of CO_360:0000125 ! Mo content  - Measurement
-relationship: variable_of CO_360:0000126 ! mg
-namespace: sugar_kelp_trait
-
-[Term]
-id: CO_360:0000128
-name: Cd content
-def: "Cd content" []
-synonym: "CDC" EXACT []
-is_a:CO_360:0000201 ! Biochemical trait
-namespace: sugar_kelp_trait
-
-[Term]
-id: CO_360:0000129
-name: Cd content  - Measurement
-namespace: Sugar Kelp traitMethod
-def: "Ionomics facility, Donald Danforth Center" []
-relationship: method_of CO_360:0000128 ! Cd content
-
-[Term]
-id: CO_360:0000130
-name: mg
-namespace: Sugar Kelp traitScale
-relationship: scale_of CO_360:0000129 ! Cd content  - Measurement
-
-[Term]
-id: CO_360:0000131
-name: CDC_M_mg
-relationship: variable_of CO_360:0000128 ! Cd content
-relationship: variable_of CO_360:0000129 ! Cd content  - Measurement
-relationship: variable_of CO_360:0000130 ! mg
-namespace: sugar_kelp_trait
-
-[Term]
-id: CO_360:0000132
-name: Pb content
-def: "Pb content" []
-synonym: "PBC" EXACT []
-is_a:CO_360:0000201 ! Biochemical trait
-namespace: sugar_kelp_trait
-
-[Term]
-id: CO_360:0000133
-name: Pb content  - Measurement
-namespace: Sugar Kelp traitMethod
-def: "Ionomics facility, Donald Danforth Center" []
-relationship: method_of CO_360:0000132 ! Pb content
-
-[Term]
-id: CO_360:0000134
-name: mg
-namespace: Sugar Kelp traitScale
-relationship: scale_of CO_360:0000133 ! Pb content  - Measurement
-
-[Term]
-id: CO_360:0000135
-name: PBC_M_mg
-relationship: variable_of CO_360:0000132 ! Pb content
-relationship: variable_of CO_360:0000133 ! Pb content  - Measurement
-relationship: variable_of CO_360:0000134 ! mg
-namespace: sugar_kelp_trait
-
-[Term]
-id: CO_360:0000136
-name: B content
-def: "B content" []
-synonym: "BC" EXACT []
-is_a:CO_360:0000201 ! Biochemical trait
-namespace: sugar_kelp_trait
-
-[Term]
-id: CO_360:0000137
-name: B content  - Measurement
-namespace: Sugar Kelp traitMethod
-def: "Ionomics facility, Donald Danforth Center" []
-relationship: method_of CO_360:0000136 ! B content
-
-[Term]
-id: CO_360:0000138
-name: mg
-namespace: Sugar Kelp traitScale
-relationship: scale_of CO_360:0000137 ! B content  - Measurement
-
-[Term]
-id: CO_360:0000139
-name: BC_M_mg
-relationship: variable_of CO_360:0000136 ! B content
-relationship: variable_of CO_360:0000137 ! B content  - Measurement
-relationship: variable_of CO_360:0000138 ! mg
-namespace: sugar_kelp_trait
-
-[Term]
-id: CO_360:0000144
-name: Al content
-def: "Al content" []
-synonym: "ALC" EXACT []
-is_a:CO_360:0000201 ! Biochemical trait
-namespace: sugar_kelp_trait
-
-[Term]
-id: CO_360:0000145
-name: Al content  - Measurement
-namespace: Sugar Kelp traitMethod
-def: "Ionomics facility, Donald Danforth Center" []
-relationship: method_of CO_360:0000144 ! Al content
-
-[Term]
-id: CO_360:0000146
-name: mg
-namespace: Sugar Kelp traitScale
-relationship: scale_of CO_360:0000145 ! Al content  - Measurement
-
-[Term]
-id: CO_360:0000147
-name: ALC_M_mg
-relationship: variable_of CO_360:0000144 ! Al content
-relationship: variable_of CO_360:0000145 ! Al content  - Measurement
-relationship: variable_of CO_360:0000146 ! mg
-namespace: sugar_kelp_trait
-
-[Term]
-id: CO_360:0000148
-name: S content
-def: "S content" []
-synonym: "SC" EXACT []
-is_a:CO_360:0000201 ! Biochemical trait
-namespace: sugar_kelp_trait
-
-[Term]
-id: CO_360:0000149
-name: S content  - Measurement
-namespace: Sugar Kelp traitMethod
-def: "Ionomics facility, Donald Danforth Center" []
-relationship: method_of CO_360:0000148 ! S content
-
-[Term]
-id: CO_360:0000150
-name: mg
-namespace: Sugar Kelp traitScale
-relationship: scale_of CO_360:0000149 ! S content  - Measurement
-
-[Term]
-id: CO_360:0000151
-name: SC_M_mg
-relationship: variable_of CO_360:0000148 ! S content
-relationship: variable_of CO_360:0000149 ! S content  - Measurement
-relationship: variable_of CO_360:0000150 ! mg
-namespace: sugar_kelp_trait
-
-[Term]
-id: CO_360:0000152
-name: K content
-def: "K content" []
-synonym: "KC" EXACT []
-is_a:CO_360:0000201 ! Biochemical trait
-namespace: sugar_kelp_trait
-
-[Term]
-id: CO_360:0000153
-name: K content  - Measurement
-namespace: Sugar Kelp traitMethod
-def: "Ionomics facility, Donald Danforth Center" []
-relationship: method_of CO_360:0000152 ! K content
-
-[Term]
-id: CO_360:0000154
-name: mg
-namespace: Sugar Kelp traitScale
-relationship: scale_of CO_360:0000153 ! K content  - Measurement
-
-[Term]
-id: CO_360:0000155
-name: KC_M_mg
-relationship: variable_of CO_360:0000152 ! K content
-relationship: variable_of CO_360:0000153 ! K content  - Measurement
-relationship: variable_of CO_360:0000154 ! mg
-namespace: sugar_kelp_trait
-
-[Term]
-id: CO_360:0000156
-name: Cr content
-def: "Cr content" []
-synonym: "CRC" EXACT []
-is_a:CO_360:0000201 ! Biochemical trait
-namespace: sugar_kelp_trait
-
-[Term]
-id: CO_360:0000157
-name: Cr content  - Measurement
-namespace: Sugar Kelp traitMethod
-def: "Ionomics facility, Donald Danforth Center" []
-relationship: method_of CO_360:0000156 ! Cr content
-
-[Term]
-id: CO_360:0000158
-name: mg
-namespace: Sugar Kelp traitScale
-relationship: scale_of CO_360:0000157 ! Cr content  - Measurement
-
-[Term]
-id: CO_360:0000159
-name: CRC_M_mg
-relationship: variable_of CO_360:0000156 ! Cr content
-relationship: variable_of CO_360:0000157 ! Cr content  - Measurement
-relationship: variable_of CO_360:0000158 ! mg
-namespace: sugar_kelp_trait
-
-[Term]
-id: CO_360:0000160
-name: Mn content
-def: "Mn content" []
-synonym: "MNC" EXACT []
-is_a:CO_360:0000201 ! Biochemical trait
-namespace: sugar_kelp_trait
-
-[Term]
-id: CO_360:0000161
-name: Mn content  - Measurement
-namespace: Sugar Kelp traitMethod
-def: "Ionomics facility, Donald Danforth Center" []
-relationship: method_of CO_360:0000160 ! Mn content
-
-[Term]
-id: CO_360:0000162
-name: mg
-namespace: Sugar Kelp traitScale
-relationship: scale_of CO_360:0000161 ! Mn content  - Measurement
-
-[Term]
-id: CO_360:0000163
-name: MNC_M_mg
-relationship: variable_of CO_360:0000160 ! Mn content
-relationship: variable_of CO_360:0000161 ! Mn content  - Measurement
-relationship: variable_of CO_360:0000162 ! mg
-namespace: sugar_kelp_trait
-
-[Term]
-id: CO_360:0000164
-name: Ni content
-def: "Ni content" []
-synonym: "NIC" EXACT []
-is_a:CO_360:0000201 ! Biochemical trait
-namespace: sugar_kelp_trait
-
-[Term]
-id: CO_360:0000165
-name: Ni content  - Measurement
-namespace: Sugar Kelp traitMethod
-def: "Ionomics facility, Donald Danforth Center" []
-relationship: method_of CO_360:0000164 ! Ni content
-
-[Term]
-id: CO_360:0000166
-name: mg
-namespace: Sugar Kelp traitScale
-relationship: scale_of CO_360:0000165 ! Ni content  - Measurement
-
-[Term]
-id: CO_360:0000167
-name: NIC_M_mg
-relationship: variable_of CO_360:0000164 ! Ni content
-relationship: variable_of CO_360:0000165 ! Ni content  - Measurement
-relationship: variable_of CO_360:0000166 ! mg
-namespace: sugar_kelp_trait
-
-[Term]
-id: CO_360:0000168
-name: Ga content
-def: "Ga content" []
-synonym: "GAC" EXACT []
-is_a:CO_360:0000201 ! Biochemical trait
-namespace: sugar_kelp_trait
-
-[Term]
-id: CO_360:0000169
-name: Ga content  - Measurement
-namespace: Sugar Kelp traitMethod
-def: "Ionomics facility, Donald Danforth Center" []
-relationship: method_of CO_360:0000168 ! Ga content
-
-[Term]
-id: CO_360:0000170
-name: mg
-namespace: Sugar Kelp traitScale
-relationship: scale_of CO_360:0000169 ! Ga content  - Measurement
-
-[Term]
-id: CO_360:0000171
-name: GAC_M_mg
-relationship: variable_of CO_360:0000168 ! Ga content
-relationship: variable_of CO_360:0000169 ! Ga content  - Measurement
-relationship: variable_of CO_360:0000170 ! mg
-namespace: sugar_kelp_trait
-
-[Term]
-id: CO_360:0000172
-name: Rb content
-def: "Rb content" []
-synonym: "RBC" EXACT []
-is_a:CO_360:0000201 ! Biochemical trait
-namespace: sugar_kelp_trait
-
-[Term]
-id: CO_360:0000173
-name: Rb content  - Measurement
-namespace: Sugar Kelp traitMethod
-def: "Ionomics facility, Donald Danforth Center" []
-relationship: method_of CO_360:0000172 ! Rb content
-
-[Term]
-id: CO_360:0000174
-name: mg
-namespace: Sugar Kelp traitScale
-relationship: scale_of CO_360:0000173 ! Rb content  - Measurement
-
-[Term]
-id: CO_360:0000175
-name: RBC_M_mg
-relationship: variable_of CO_360:0000172 ! Rb content
-relationship: variable_of CO_360:0000173 ! Rb content  - Measurement
-relationship: variable_of CO_360:0000174 ! mg
-namespace: sugar_kelp_trait
-
-[Term]
-id: CO_360:0000176
-name: In content
-def: "In content" []
-synonym: "INC" EXACT []
-is_a:CO_360:0000201 ! Biochemical trait
-namespace: sugar_kelp_trait
-
-[Term]
-id: CO_360:0000177
-name: In content  - Measurement
-namespace: Sugar Kelp traitMethod
-def: "Ionomics facility, Donald Danforth Center" []
-relationship: method_of CO_360:0000176 ! In content
-
-[Term]
-id: CO_360:0000178
-name: mg
-namespace: Sugar Kelp traitScale
-relationship: scale_of CO_360:0000177 ! In content  - Measurement
-
-[Term]
-id: CO_360:0000179
-name: INC_M_mg
-relationship: variable_of CO_360:0000176 ! In content
-relationship: variable_of CO_360:0000177 ! In content  - Measurement
-relationship: variable_of CO_360:0000178 ! mg
-namespace: sugar_kelp_trait
-
-[Term]
-id: CO_360:0000180
-name: I content
-def: "I content" []
-synonym: "IC" EXACT []
-is_a:CO_360:0000201 ! Biochemical trait
-namespace: sugar_kelp_trait
-
-[Term]
-id: CO_360:0000181
-name: I content  - Measurement
-namespace: Sugar Kelp traitMethod
-def: "Ionomics facility, Donald Danforth Center" []
-relationship: method_of CO_360:0000180 ! I content
-
-[Term]
-id: CO_360:0000182
-name: mg
-namespace: Sugar Kelp traitScale
-relationship: scale_of CO_360:0000181 ! I content  - Measurement
-
-[Term]
-id: CO_360:0000183
-name: IC_M_mg
-relationship: variable_of CO_360:0000180 ! I content
-relationship: variable_of CO_360:0000181 ! I content  - Measurement
-relationship: variable_of CO_360:0000182 ! mg
-namespace: sugar_kelp_trait
-
-[Term]
-id: CO_360:0000200
-name: Agronomical trait
-is_a: CO_360:0000205 ! Sugar Kelp trait
-namespace: sugar_kelp_trait
-
-[Term]
-id: CO_360:0000201
-name: Biochemical trait
-is_a: CO_360:0000205 ! Sugar Kelp trait
-namespace: sugar_kelp_trait
-
-[Term]
-id: CO_360:0000202
-name: Morphological trait
-is_a: CO_360:0000205 ! Sugar Kelp trait
-namespace: sugar_kelp_trait
-
-[Term]
-id: CO_360:0000203
-name: Phenological trait
-is_a: CO_360:0000205 ! Sugar Kelp trait
-namespace: sugar_kelp_trait
-
-[Term]
-id: CO_360:0000204
-name: Physiological trait
-is_a: CO_360:0000205 ! Sugar Kelp trait
-namespace: sugar_kelp_trait
-
-[Term]
-id: CO_360:0000205
-name: Sugar Kelp trait
-namespace: sugar_kelp_trait
+name: Blade length 6 scale
+namespace: kelp_scale
+def: "Blade length 6 scale in cm." []
+relationship: scale_of CO_360:0000066 ! Measurement:Blade length 6_method
+created_by: XM
+creation_date: 2018-04-08T12:20:11Z
 
 [Typedef]
 id: method_of
 name: method_of
+def: "The methods of measuring traits." []
 is_transitive: true
+created_by: XM
+creation_date: 2018-04-06T14:59:13Z
 
 [Typedef]
 id: scale_of
 name: scale_of
+def: "The scale of the measuring." []
 is_transitive: true
+created_by: XM
+creation_date: 2018-04-06T14:58:40Z
 
 [Typedef]
 id: variable_of
 name: variable_of
+is_transitive: true
+created_by: XM
+creation_date: 2018-04-06T14:55:10Z
 
