@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 10:04:2018 14:16
+date: 11:04:2018 21:15
 saved-by: XM
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: kelp_ontology
@@ -508,7 +508,7 @@ creation_date: 2018-04-07T15:48:24Z
 
 [Term]
 id: CO_360:0000061
-name: Herbavores
+name: Herbivores
 namespace: sugar_kelp_trait
 is_a: CO_360:0000006 ! Stress trait
 created_by: XM
@@ -568,6 +568,111 @@ def: "Blade length 6 scale in cm." []
 relationship: scale_of CO_360:0000066 ! Measurement:Blade length 6_method
 created_by: XM
 creation_date: 2018-04-08T12:20:11Z
+
+[Term]
+id: CO_360:0000068
+name: Blade thickness in mm
+namespace: sugar_kelp_trait
+def: "Blade thickness." []
+relationship: variable_of CO_360:0000011 ! Blade thickness
+relationship: variable_of CO_360:0000069 ! Measurement:Blade thickness_method
+relationship: variable_of CO_360:0000070 ! Blade thickness_scale
+created_by: XM
+creation_date: 2018-04-11T20:18:34Z
+
+[Term]
+id: CO_360:0000069
+name: Measurement:Blade thickness_method
+namespace: kelp_method
+def: "Blade thickness." []
+relationship: method_of CO_360:0000011 ! Blade thickness
+created_by: XM
+creation_date: 2018-04-11T20:27:23Z
+
+[Term]
+id: CO_360:0000070
+name: Blade thickness_scale
+namespace: kelp_scale
+def: "Blade thickness." []
+relationship: scale_of CO_360:0000069 ! Measurement:Blade thickness_method
+created_by: XM
+creation_date: 2018-04-11T20:28:29Z
+
+[Term]
+id: CO_360:0000071
+name: Blade width at 10cm
+namespace: sugar_kelp_trait
+def: "Blade width at 10cm." []
+relationship: variable_of CO_360:0000009 ! Blade width 10cm
+relationship: variable_of CO_360:0000072 ! Measurement:Blade width 10cm_method
+relationship: variable_of CO_360:0000073 ! Blade width 10cm_scale
+created_by: XM
+creation_date: 2018-04-11T20:35:37Z
+
+[Term]
+id: CO_360:0000072
+name: Measurement:Blade width 10cm_method
+namespace: kelp_method
+def: "Blade width measured at 10cm." []
+relationship: method_of CO_360:0000009 ! Blade width 10cm
+created_by: XM
+creation_date: 2018-04-11T20:35:37Z
+
+[Term]
+id: CO_360:0000073
+name: Blade width 10cm_scale
+namespace: kelp_scale
+def: "Blade width 10cm." []
+relationship: scale_of CO_360:0000072 ! Measurement:Blade width 10cm_method
+created_by: XM
+creation_date: 2018-04-11T20:36:28Z
+
+[Term]
+id: CO_360:0000074
+name: Blade width at widest
+namespace: sugar_kelp_trait
+def: "Blade width at widest." []
+relationship: variable_of CO_360:0000010 ! Blade width widest
+relationship: variable_of CO_360:0000075 ! Measurement:Blade width widest_method
+relationship: variable_of CO_360:0000076 ! Blade width widest_scale
+created_by: XM
+creation_date: 2018-04-11T21:07:09Z
+
+[Term]
+id: CO_360:0000075
+name: Measurement:Blade width widest_method
+namespace: kelp_method
+def: "Blade width widest." []
+relationship: method_of CO_360:0000010 ! Blade width widest
+created_by: XM
+creation_date: 2018-04-11T21:07:44Z
+
+[Term]
+id: CO_360:0000076
+name: Blade width widest_scale
+namespace: kelp_scale
+def: "Blade width widest." []
+relationship: scale_of CO_360:0000075 ! Measurement:Blade width widest_method
+created_by: XM
+creation_date: 2018-04-11T21:08:41Z
+
+[Term]
+id: CO_360:0000077
+name: White patches presents or absents
+namespace: sugar_kelp_trait
+def: "White patches presents or absents." []
+relationship: variable_of CO_360:0000062 ! White patches
+created_by: XM
+creation_date: 2018-04-11T21:12:28Z
+
+[Term]
+id: CO_360:0000078
+name: Bullations y/n
+namespace: sugar_kelp_trait
+def: "Bullations y/n." []
+relationship: variable_of CO_360:0000054 ! Bullations
+created_by: XM
+creation_date: 2018-04-11T21:14:21Z
 
 [Typedef]
 id: method_of
