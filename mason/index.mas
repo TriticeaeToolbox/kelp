@@ -5,17 +5,14 @@ $show_accept_dialog => undef
 </%args>
 
 <center>
+<h1>Welcome to SugarKelpBase!</h1>
+<br />
+<img src="https://upload.wikimedia.org/wikipedia/commons/f/f8/Sanc0063_-_Flickr_-_NOAA_Photo_Library.jpg" width="800" />
 <br/>
 <!-- & homepage/carousel.mas & -->
-
-
-<& /image/embed_image.mas, image_id=>2425, dbh=>$schema->storage()->dbh() &>
-
-
 <br/>
 </center>
 
 <br/>
-
 
 <& homepage/github_pullrequests.mas &>
