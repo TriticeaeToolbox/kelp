@@ -1,7 +1,13 @@
+<style>
+    #sgnlogo {
+        height: 44px;
+        padding-left: 4px;
+    }
+</style>
+
 
 <a class="navbar-brand" href="/" style="padding:10px 0px">
 
-<img id="sgnlogo" 
-src="/static/img/sgn_transparent_logo.png" width="60" alt="SugarKelpBase Home" title="SugarKelpBase Home"></a>
+<img id="sgnlogo" src="/static_content/img/logo.png" alt="SugarKelpBase Home" title="SugarKelpBase Home"></a>
 
 <a class="navbar-brand sgn_brand_name" href="/">SugarKelpBase</a>
