@@ -4,15 +4,53 @@ $static_content_path => undef
 $show_accept_dialog => undef
 </%args>
 
+
+<style type="text/css">
+    .img {
+        width: 90%;
+        max-width: 700px;
+    }
+    .update-title {
+        display: block;
+        float: left;
+        clear: left;
+        font-size: 16px;
+        font-weight: bold;
+        padding: 10px 0;
+    }
+    .update-label {
+        display: block;
+        float: left;
+        clear: right;
+        background-color: #333;
+        color: #fff;
+        padding: 2px 7px;
+        margin: 7px;
+        border-radius: 5px;
+    }
+</style>
+
+
 <center>
 <h1>Welcome to SugarKelpBase!</h1>
 <br />
-<img src="https://upload.wikimedia.org/wikipedia/commons/f/f8/Sanc0063_-_Flickr_-_NOAA_Photo_Library.jpg" width="800" />
+<img class="img" src="/static_content/img/H5-5.jpg" />
 <br/>
 <!-- & homepage/carousel.mas & -->
 <br/>
 </center>
 
+<br />
+<br />
+
+<h2>Recent Updates</h2>
+
+<span class="update-title">Founders Trials Added</span>
+<span class="update-label">May 16, 2019</span>
+<div style="clear: both"></div>
+<p>The <strong>2018 Founders Phenotype Trials</strong> have been added to the database. The <a href="/folder/343">Founders Trials Folder</a> 
+contains a list of the individual trials.  They can also be accessed from the menu via <strong>Manage > Field Trials</strong> 
+as well as through the <strong>Search Wizard</strong>.</p>
+
 <br/>
 
-<& homepage/github_pullrequests.mas &>
