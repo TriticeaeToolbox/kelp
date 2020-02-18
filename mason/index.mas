@@ -45,6 +45,72 @@ $show_accept_dialog => undef
 
 <h2>Recent Updates</h2>
 
+<span class="update-title">2018 Cross Parents Updated</span>
+<span class="update-label">February 18, 2020</span>
+<div style="clear: both"></div>
+<p>The parents of 28 crosses from 2018 have been updated in the database to match the actual crosses perfomed.<br />
+<a href='#crosses-updated' data-toggle='collapse'>Click here to view the names of the updated crosses</a></p>
+<div class='collapse' id='crosses-updated'>
+    <ul>
+        <li>SL18-UCONN-S10</li>
+        <li>SL18-UCONN-S11</li>
+        <li>SL18-UCONN-S12</li>
+        <li>SL18-UCONN-S13</li>
+        <li>SL18-UCONN-S14</li>
+        <li>SL18-UCONN-S15</li>
+        <li>SL18-UCONN-S16</li>
+        <li>SL18-UCONN-S17</li>
+        <li>SL18-UCONN-S18</li>
+        <li>SL18-UCONN-S19</li>
+        <li>SL18-UCONN-S192</li>
+        <li>SL18-UCONN-S193</li>
+        <li>SL18-UCONN-S20</li>
+        <li>SL18-UCONN-S21</li>
+        <li>SL18-UCONN-S22</li>
+        <li>SL18-UCONN-S23</li>
+        <li>SL18-UCONN-S24</li>
+        <li>SL18-UCONN-S25</li>
+        <li>SL18-UCONN-S26</li>
+        <li>SL18-UCONN-S27</li>
+        <li>SL18-UCONN-S28</li>
+        <li>SL18-UCONN-S29</li>
+        <li>SL18-UCONN-S30</li>
+        <li>SL18-UCONN-S31</li>
+        <li>SL18-UCONN-S6</li>
+        <li>SL18-UCONN-S7</li>
+        <li>SL18-UCONN-S8</li>
+        <li>SL18-UCONN-S9</li>
+    </ul>
+</div>
+
+<br />
+
+<span class="update-title">2019 Crosses and 2020 Farm Trials Added</span>
+<span class="update-label">October 4, 2019</span>
+<div style="clear: both"></div>
+<p>Accessions from the 2019 crosses have been added following the naming convention of:  
+<strong>SL19-UCONN-S{1-370}</strong></a>.</p>
+<p>Trial layouts for the 2020 Farm Trials at GOM (<a href="/breeders/trial/380">FARM-2020-GOM</a>) 
+and SNE (<a href="/breeders/trial/382">FARM-2020-SNE</a>) have been added.</p>
+
+<br />
+
+<span class="update-title">Accessions Renamed and Organized</span>
+<span class="update-label">July 31, 2019</span>
+<div style="clear: both"></div>
+<p>Accessions have been renamed and organized (with duplicates merged) to follow the standard 
+<a href="https://slack-files.com/T8XDFG1A8-FLEP9062X-954543ec3b">Kelp Naming Conventions</a>.</p>
+
+<br />
+
+<span class="update-title">UNH Farm Trial Added</span>
+<span class="update-label">July 19, 2019</span>
+<div style="clear: both"></div>
+<p>The <strong>2019 UNH Farm Trial</strong> has been added to the database. <a href="http://sugarkelpbase.org/breeders/trial/379?format=">The Trial</a> 
+includes observations at the plot, subplot and individual blade level.</p>
+
+<br />
+
 <span class="update-title">Founders Trials Added</span>
 <span class="update-label">May 16, 2019</span>
 <div style="clear: both"></div>
