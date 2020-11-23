@@ -8,6 +8,8 @@
 *.pm.tdy
 *.bs
 
+/static_content/folder
+
 # Devel::Cover
 cover_db/
 
