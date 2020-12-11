@@ -1,3 +1,9 @@
+<%init>
+  my $tag = `git describe --abbrev=0 --tags`;
+  my $commit = `git rev-parse --short HEAD`;
+  my $updated = `git log -1 --format=%cd`;
+</%init>
+
 <style>
   .footer-container {
     border-top: 1px solid #ddd;
@@ -21,6 +27,20 @@
     font-size: 90%;
     color: #aaa;
   }
+  .git-version {
+    display: inline-block;
+    margin-top: 10px;
+  }
+  .git-version p {
+    color: #aaa;
+    font-size: 90%;
+  }
+  .git-version a {
+    color: #aaa
+  }
+  span.git-version-tag {
+    float: right;
+  }
 </style>
 
 <!-- END CONTENT WRAPPER -->
@@ -33,8 +53,21 @@
   <br />
   <div class="row footer-row">
     <div class="col-sm-4">
-      <h3>Hosted By</h3>
-      <a href="https://btiscience.org"><img class="partner-logo" src="/img/bti_logo_2016.png" /></a>
+      <h3>Powered By</h3>
+      <a href="https://breedbase.org/">
+        <img class="partner-logo" src="/static_content/img/breedbase.png" />
+      </a>
+      <br />
+      <div class="git-version">
+        <p>
+          <strong>Version</strong>
+          <br />
+          <span class="git-version-commit"><a href="https://github.com/TriticeaeToolbox/sgn/commits/t3/master"><% $commit %></a></span>&nbsp;
+          <span class="git-version-tag"><a href="https://github.com/TriticeaeToolbox/sgn/commits/<% $tag %>"><% $tag %></a></span>
+          <br />
+          <span class="git-version-updated"><% $updated %></span>
+        </p>
+      </div>
     </div>
     <div class="col-sm-5">
     </div>
