@@ -3,19 +3,9 @@
   <ul class="dropdown-menu">
     <li><a href="/about">About</a></li>
     <li><a href="/contact/form">Contact</a></li>
-    <li><a href="/about/">Cite SugarKelpBase</a></li>
     
     <li role="separator" class="divider"></li>
 
-    <li><a href="https://solgenomics.github.io/sgn/" class="footer">Manual</a></li>
-    <li><a href="http://cassavabase.wikispaces.com/" class="footer">Wiki</a></li>    
-    <li><a href="/about/">Help</a></li>
-    <li><a href="/help/faq.pl">FAQ</a></li>
-    <li><a href="/forum/topics.pl">Forum</a></li>
-    
-    <li role="separator" class="divider"></li>
-    
-    <li><a href="https://twitter.com/solgenomics">Twitter</a></li>
-    <li><a href="https://www.facebook.com/solgenomics">Facebook</a></li>
+    <li><a href="https://solgenomics.github.io/sgn/" class="footer">Breedbase Manual</a></li>
   </ul>
 </li>

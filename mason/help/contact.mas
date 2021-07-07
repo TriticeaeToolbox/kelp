@@ -1,0 +1,21 @@
+<%args>
+$contact_form_human_answer => ''
+$contact_form_human_question => ''
+$website_name => ''
+$email_address_to_display => ''
+</%args>
+
+<& "/page/page_title.mas", title => "Contact $website_name" &>
+
+<div style="margin: 50px">
+
+    <div class="well" style="max-width: 500px; margin: 0 auto">
+
+        <p>Please send any questions or comments about <strong>SugarKelpBase</strong> to:</p>
+        <ul>
+            <li><a href="mailto:djw64@cornell.edu">David Waring &lt;djw64@cornell.edu&gt;</a></li>
+        </ul>
+
+    </div>
+
+</div>
