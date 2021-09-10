@@ -1,0 +1,252 @@
+<& "/page/page_title.mas", title => "Create a Seedlot" &>
+
+<div style="max-width: 800px; margin: 25px auto">
+
+    <p>A "Seedlot" in the database represents a single vial/flask/container of a stored gametophyte.  A single gametophyte genotype might been found in more than one container and would have a separate Seedlot entry in the database for each container, each with a unique name (...-LOTA, ...-LOTB, etc).</p>
+
+    <p>Each Seedlot has a "contents" property, which is the name of an Accession entry in the database.  This links each Seedlot back to the gametophyte genotype that it contains.</p>
+
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Seedlot Name</th>
+                <th>Seedlot Contents (Accession Name)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>SL18-OD-S6-MG1-LOTA</td>
+                <td>SL18-OD-S6-MG1</td>
+            </tr>
+            <tr>
+                <td>SL18-OD-S6-MG1-LOTB</td>
+                <td>SL18-OD-S6-MG1</td>
+            </tr>
+            <tr>
+                <td>SL18-TI-S1-MG5-LOTA</td>
+                <td>SL18-TI-S1-MG5</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br />
+
+    <h3>Create a New Seedlot</h3>
+
+    <h4>Accessions</h4>
+
+    <p>Before creating a new Seedlot, it is important to check if the gametophyte exists in the database as an Accession entry.  For example, if you're creating a new Seedlot for the gametophyte SL18-OD-S3-MG1, "SL18-OD-S3-MG1" must be an Accession entry.</p>
+    
+    <p><strong>To check if an Accession exists:</strong></p>
+    
+    <ol>
+        <li>Go to the <a href="/search/stocks">Search &gt; Accessions</a> page</li>
+        <li>Enter the name "SL18-OD-S3-MG1" in the search field</li>
+        <li>Click the <strong>Search</strong> button to search the database</li>
+    </ol>
+
+    <p>If the Accession entry exists, you can skip ahead to creating the Seedlot.  If not, the Accession entry will have to be added first.</p>
+
+    <p>Accessions are added to the database by uploading an Excel file (.xls, old format).  At a minimum, the Accession name and species are required.  If you're creating multiple Seedlots, multiple Accessions can be added to the Excel file and uploaded at the same time.</p>
+
+    <div class="alert-info" style="padding: 10px; border-radius: 10px; margin: 15px;">
+        <strong>Tip:</strong> If you want to add the pedigree information, you should also include the parent(s) of any new Accession entries so that way the pedigrees can be updated in the next step.  For example, if you're adding a new gametophyte as an Accession, you should also add the sporophyte as an Accession so that way they can be linked together.
+    </div>
+    
+    <p><strong>An example of an Accession upload file:</strong></p>
+
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>accession_name</th>
+                <th>species_name</th>
+                <th>population_name</th>
+                <th>organization_name</th>
+                <th>synonym</th>
+                <th>PUI</th>
+                <th>accession&nbsp;number</th>
+                <th>country&nbsp;of&nbsp;origin</th>
+                <th>notes</th>
+                <th>organization</th>
+                <th>variety</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>SL18-OD-S3-MG1</td>
+                <td>Saccharina latissima</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>SL18-OD-S3</td>
+                <td>Saccharina latissima</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td colspan="11">Additional Accessions...</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p><strong>To upload the Accession Excel file:</strong></p>
+
+    <ol>
+        <li>Go to the <a href="/breeders/accessions/">Manage &gt; Accessions</a> page</li>
+        <li>Click the <strong>Add Accessions Or Upload Accession Info</strong> link near the top-right corner</li>
+        <li>Select the <strong>Uploading a File</strong> tab</li>
+        <li>Choose your Excel file</li>
+        <li>Click the <strong>Continue</strong> button to upload your file and check it for errors</li>
+    </ol>
+
+    <br />
+
+    <h4>Pedigrees</h4>
+
+    <p>Once the gametophytes and their sporophyte parents have been added to the database, they can be linked together by uploading a Pedigree file.  The file format for the pedigree file is a plain-text, tab-delimited file.  The easiest way to create a file in this format is to use Excel and save the spreadsheet as a "Tab delimited text (.txt)" file.</p>
+
+    <p><strong>An example of a pedigree table:</strong></p>
+
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>progeny name</th>
+                <th>female parent accession</th>
+                <th>male parent accession</th>
+                <th>type</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>SL18-OD-S3-MG1</td>
+                <td>SL18-OD-S3</td>
+                <td>SL18-OD-S3</td>
+                <td>self</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p><strong>To upload the Pedigrees text file:</strong></p>
+
+    <ol>
+        <li>Go to the <a href="/breeders/accessions/">Manage &gt; Accessions</a> page</li>
+        <li>Click the <strong>Upload Pedigree File</strong> link near the top-right corner</li>
+        <li>Choose your text file</li>
+        <li>Click the <strong>Validate</strong> button to upload your file and check it for errors</li>
+    </ol>
+
+    <p>At this point, you have your gametophytes and their sporophyte parents added as Accession entries in the database.  You can now create Seedlot entries for the gametophytes.</p>
+
+    <br />
+
+    <h4>Seedlots</h4>
+
+    <p>Once you have the gametophytes loaded as Accessions in the database, you can create Seedlot entries for them.  There are two ways to add a Seedlot to the database.  The first is to fill out a form for each individual Seedlot.  If you have many Seedlots to add to the database, you can upload an Excel file with the information to add them in bulk.</p>
+
+    <p><strong>To create a single Seedlot:</strong></p>
+
+    <ol>
+        <li>Go to the <a href="/breeders/seedlots/">Manage &gt; Seedlots</a> page</li>
+        <li>Click the <strong>Create Seedlots</strong> button and select <strong>Add New Seedlot</strong></li>
+        <li>Fill out the properties of the Seedlot:
+            <ul>
+                <li><strong>Name:</strong> unique name of the Seedlot, ex: SL18-OD-S3-MG1-LOTA</li>
+                <li><strong>Breeding Program:</strong> Mariner5</li>
+                <li><strong>Location:</strong> Where the Seedlot is stored, ex: WHOI or University of Connecticut</li>
+                <li><strong>Box Name:</strong> Lab location of the Seedlot, ex: shelf/tray/room code</li>
+                <li><strong>Contents:</strong> Accession name, ex: SL18-OD-S3-MG1</li>
+                <li><strong>Amount (number of seeds):</strong> 1 for all Seedlots, since it's required</li>
+                <li><strong>Organization:</strong> WHOI or UCONN</li>
+            </ul>
+        <li>Click the <strong>OK</strong> button to add the Seedlot to the database</li>
+    </ol>
+
+    <br />
+
+    <p><strong>To upload multiple Seedlots:</strong><p>
+
+    <p>Create an Excel (.xls, old format) file with the following information:</p>
+
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>seedlot_name</th>
+                <th>accession_name</th>
+                <th>operator_name</th>
+                <th>amount</th>
+                <th>weight(g)</th>
+                <th>description</th>
+                <th>box_name</th>
+                <th>quality</th>
+                <th>source</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>SL18-OD-S3-MG1-LOTA</td>
+                <td>SL18-OD-S3-MG1</td>
+                <td>your database username</td>
+                <td>1</td>
+                <td></td>
+                <td></td>
+                <td>shelf/tray/room code</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td colspan="9">Additional Seedlots...</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p>Once you have your Excel file, you can upload it to the database by:</p>
+
+    <ol>
+        <li>Go to the <a href="/breeders/seedlots/">Manage &gt; Seedlots</a> page</li>
+        <li>Click the <strong>Create Seedlots</strong> button and select <strong>Upload Seedlots</strong></li>
+        <li>On Step 2 of the workflow, Select the option for <strong>named accessions</strong></li>
+        <li>On Step 4 of the workflow:
+            <ul>
+                <li>Location = WHOI or University of Connecticut</li>
+                <li>Organization = WHOI or UCONN</li>
+                <li>Choose your Excel file</li>
+            </ul>
+        </li>
+        <li>Click the <strong>Upload Seedlots</strong> button to upload your file and check for errors</li>
+    </ol>
+
+
+
+    <br /><br />
+
+
+    <h3>Split an Existing Seedlot</h3>
+
+    <p>If an existing Seedlot has been split into another container, the easiest way to create a new Seedlot entry for the new Seedlot is to use the "Split Seedlot" tool.  This will duplicate the properties of the existing Seedlot and give the new Seedlot a new -LOT{abc} identifier.</p>
+
+    <ol>
+        <li>Go to the <a href="/breeders/seedlot/maintenance">Manage &gt; Seedlot Maintenance</a> page</li>
+        <li>Expand the <strong>Seedlot Maintenance Tools</strong> section</li>
+        <li>In the <strong>Split Seedlot</strong> tool, enter the name of the existing Seedlot to split</li>
+        <li>The new Seedlot attributes will be automatically added, adjust any that need to be changed</li>
+        <li>Enter 1 for the Amount / Count of the New Seedlot Contents</li>
+        <li>Click the <strong>Create Seedlot</strong> button to create the new Seedlot</li>
+    </ol>
+
+
+</div>
