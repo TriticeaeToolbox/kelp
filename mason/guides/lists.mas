@@ -1,0 +1,53 @@
+<& "/page/page_title.mas", title => "Create a List" &>
+
+<div style="max-width: 800px; margin: 25px auto">
+
+    <p>A List is a collection of items of a single data type (Accession, Seedlot, Trial, etc).  They can be used in the Search Wizard and other various tools on the website.  By default, a new List is private (only you can use it), but can optionally made public (other users of the database can use it).  Lists can be managed (renamed, deleted, add/remove items) using the List Manager (the light blue <strong>Lists</strong> button in the toolbar).</p>
+
+    <p><strong>Note:</strong> You will need to <a href="#" id="register">have an account</a> and be <a href="#" id="login">logged in</a> to use Lists.</p>
+
+    <br /><br />
+
+    <p>The easiest way to create a new List is to use the Search Wizard:</p>
+
+    <ol>
+
+        <li>Go to the <a href="/breeders/search">Search &gt; Wizard</a></li>
+
+        <li>Select the <strong>Select Column Type</strong> dropdown menu in the first column to select the data type of the List</li>
+
+        <li>Click the green <strong>+</strong> button of the items you want in your List</li>
+
+        <li>At the bottom of the column, enter a name for your List</li>
+
+        <li>Click the <strong>Create</strong> button to save your List</li>
+
+    </ol>
+
+    <br /><br />
+
+    <div class="alert-info" style="padding: 10px; border-radius: 10px; margin: 15px;">
+        <strong>Tip:</strong> You can filter the available items of your data type by choosing one or more different data types first to use as the filter(s).  For example, you can choose "Trials" in the first column and select a single trial.  Then, you can choose "Accessions" in the second column and the available items to select will now only include Accessions that were used in the selected Trial.
+    </div>
+
+    <div class="alert-info" style="padding: 10px; border-radius: 10px; margin: 15px;">
+        <strong>Tip:</strong>You can filter the available items by their name (or a portion of their name) by entering the search text in the Search field at the top of the column.
+    </div>
+
+    <br /><br />
+
+    <img src="/static_content/guides/lists/SearchWizard.png" style="max-width: 100%">
+
+</div>
+
+
+<script type="text/javascript">
+    jQuery( document ).ready(function() {
+        jQuery("#register").on("click", function() {
+            jQuery('#site_login_new_user_dialog').modal("show");
+        });
+        jQuery("#login").on("click", function() {
+            jQuery('#site_login_dialog').modal("show");
+        });
+    });
+</script>

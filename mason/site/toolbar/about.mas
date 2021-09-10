@@ -5,7 +5,12 @@
     <li><a href="/contact/form">Contact</a></li>
     
     <li role="separator" class="divider"></li>
-
+    
+    <li class="dropdown-header">User Guides</li>
     <li><a href="https://solgenomics.github.io/sgn/" class="footer">Breedbase Manual</a></li>
+    <li><a href="/guides/lists">Create a List</a></li> 
+    <li><a href="/guides/seedlot">Create a Seedlot</a></li>
+    <li><a href="/guides/seedlot-labels">Create Seedlot Labels</a></li>
+  
   </ul>
 </li>
