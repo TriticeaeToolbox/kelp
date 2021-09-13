@@ -1,0 +1,31 @@
+<& "/page/page_title.mas", title => "Generate Seedlot Labels" &>
+
+<div style="max-width: 800px; margin: 25px auto">
+
+    <p>This guide will generate a PDF document of 1" labels (<a href="https://www.amazon.com/Address-Labels-Inkjet-Printers-Pack/dp/B0756VJNXG/" target="_blank">Amazon listing for labels that work with this template</a>) containing a QR code of the Seedlot name, the plain-text Seedlot name, and the unique internal database ID of the Seedlot.</p>
+
+    <br />
+
+    <h3>Create a List</h3>
+
+    <p>The Seedlots that will be included in the labels need to be defined in a List first.  See the <a href="/guides/lists">Create a List</a> guide for more information.</p>
+
+    <br />
+
+    <h3>Generate Labels</h3>
+
+    <p>Once you have a List of Seedlots set, you can generate the labels by:</p>
+
+    <ol>
+        <li>Go to the <a href="/tools/label_designer">Manage &gt; Label Designer</a> page</li>
+        <li>For Step 1: Select your List as the <strong>Data Source</strong> and "List Items" for the <strong>Data Level</strong></li>
+        <li>For Step 2: Select <strong>Saved</strong> to use the existing Label template.  Then, select <strong>1" Seedlot Labels</strong> as the saved design.</li>
+        <li>For Step 3: You can modify the design of the template or click the <strong>Next</strong> button to keep the design the same.</li>
+        <li>For Step 4: Click the <strong>Download pdf</strong> button to donwload the generated labels.</li>
+    </ol>
+
+    <br />
+
+    <img src="/static_content/guides/seedlot-labels/LabelDesigner.png" style="max-width: 100%">
+
+</div>
