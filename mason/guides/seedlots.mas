@@ -178,6 +178,10 @@
 
     <br />
 
+    <img src="/static_content/guides/seedlots/AddSeedlotDialog.png" style="max-width: 100%">
+
+    <br /><br />
+
     <p><strong>To upload multiple Seedlots:</strong><p>
 
     <p>Create an Excel (.xls, old format) file with the following information:</p>
@@ -248,5 +252,8 @@
         <li>Click the <strong>Create Seedlot</strong> button to create the new Seedlot</li>
     </ol>
 
+    <br />
+
+    <img src="/static_content/guides/seedlots/SplitSeedlot.png" style="max-width: 100%">
 
 </div>
