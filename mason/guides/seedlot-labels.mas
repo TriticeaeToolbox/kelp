@@ -26,6 +26,12 @@
 
     <br />
 
+    <div class="alert-info" style="padding: 10px; border-radius: 10px; margin: 15px;">
+        <strong>Tip:</strong> If you're using a partially-used label sheet for the first page, on Step 4 click the <strong>Edit Additional Settings</strong> button to set the position of the first label by entering its row and column number.  For example, if you've already used 5 labels, enter '3' for the <strong>Start Column</strong> and '2' for the <strong>Start Row</strong>.
+    </div>
+
+    <br />
+
     <img src="/static_content/guides/seedlot-labels/LabelDesigner.png" style="max-width: 100%">
 
 </div>
