@@ -45,6 +45,16 @@ $show_accept_dialog => undef
 
 <h2>Recent Updates</h2>
 
+<span class="update-title">2019-2021 Farm Trials Added</span>
+<span class="update-label">March 28, 2022</span>
+<div style="clear: both"></div>
+<p>Three years of <strong>Farm Trials</strong> have been added to the database.  This includes adding new crosses (and their 
+pedigrees), field layouts, and plot- and blade-level observations.  The <a href="/folder/363">Farm Trials Folder</a> contains 
+a list of the individual trials.  They can also be accessed from the menu via <strong>Manage > Field Trials</strong> as 
+well as through the <strong>Search Wizard</strong>.</p>
+
+<br />
+
 <span class="update-title">2018 Cross Parents Updated</span>
 <span class="update-label">February 18, 2020</span>
 <div style="clear: both"></div>
@@ -85,13 +95,11 @@ $show_accept_dialog => undef
 
 <br />
 
-<span class="update-title">2019 Crosses and 2020 Farm Trials Added</span>
+<span class="update-title">2019 Crosses Added</span>
 <span class="update-label">October 4, 2019</span>
 <div style="clear: both"></div>
 <p>Accessions from the 2019 crosses have been added following the naming convention of:  
 <strong>SL19-UCONN-S{1-370}</strong></a>.</p>
-<p>Trial layouts for the 2020 Farm Trials at GOM (<a href="/breeders/trial/380">FARM-2020-GOM</a>) 
-and SNE (<a href="/breeders/trial/382">FARM-2020-SNE</a>) have been added.</p>
 
 <br />
 
@@ -100,14 +108,6 @@ and SNE (<a href="/breeders/trial/382">FARM-2020-SNE</a>) have been added.</p>
 <div style="clear: both"></div>
 <p>Accessions have been renamed and organized (with duplicates merged) to follow the standard 
 <a href="https://slack-files.com/T8XDFG1A8-FLEP9062X-954543ec3b">Kelp Naming Conventions</a>.</p>
-
-<br />
-
-<span class="update-title">UNH Farm Trial Added</span>
-<span class="update-label">July 19, 2019</span>
-<div style="clear: both"></div>
-<p>The <strong>2019 UNH Farm Trial</strong> has been added to the database. <a href="http://sugarkelpbase.org/breeders/trial/379?format=">The Trial</a> 
-includes observations at the plot, subplot and individual blade level.</p>
 
 <br />
 
