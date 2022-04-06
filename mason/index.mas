@@ -45,6 +45,16 @@ $show_accept_dialog => undef
 
 <h2>Recent Updates</h2>
 
+<span class="update-title">2019-2021 Founder Trials Added</span>
+<span class="update-label">March 30, 2022</span>
+<div style="clear: both"></div>
+<p>Three years of <strong>Founder Trials</strong> have been added to the database.  This includes new Accession entries for the collected
+sporophytes as well as the blade-level trait data collected.  The <a href="/folder/343">Founders Trials Folder</a> contains 
+a list of the individual trials.  They can also be accessed from the menu via <strong>Manage > Field Trials</strong> as 
+well as through the <strong>Search Wizard</strong>.</p>
+
+<br />
+
 <span class="update-title">2019-2021 Farm Trials Added</span>
 <span class="update-label">March 28, 2022</span>
 <div style="clear: both"></div>
