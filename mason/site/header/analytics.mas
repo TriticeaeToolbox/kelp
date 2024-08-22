@@ -9,5 +9,8 @@
 
   gtag('config', 'G-TE6S50RJJR');
 </script>
+
+<!-- Plausible Analytics -->
+<script defer data-domain="sugarkelpbase.org" src="https://a.triticeaetoolbox.org/js/script.js"></script>
 % }
 
